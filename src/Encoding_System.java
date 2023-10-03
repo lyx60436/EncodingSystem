@@ -115,7 +115,7 @@ class Encoder
 			}	
 		}
 		
-		// Create offset table
+		// Create shift table
 		for (int i = 0; i < ref_table.length; i++)
 		{
 			int newPosition = (i + right_shift) % ref_table.length;
