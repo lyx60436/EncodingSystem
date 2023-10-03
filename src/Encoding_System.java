@@ -1,6 +1,6 @@
+// Declare libraries
 import java.util.Scanner;
 import java.util.Arrays;
-import java.lang.Math;
 
 class Encoder 
 {
