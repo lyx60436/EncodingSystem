@@ -1,6 +1,5 @@
-// Import libraries
+// Import scanner
 import java.util.Scanner;
-import java.util.Arrays;
 
 class Encoder 
 {
