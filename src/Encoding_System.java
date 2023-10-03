@@ -1,4 +1,4 @@
-// Declare libraries
+// Import libraries
 import java.util.Scanner;
 import java.util.Arrays;
 
