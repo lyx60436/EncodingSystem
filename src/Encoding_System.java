@@ -368,27 +368,27 @@ public class Encoding_System
 			switch(option) 
 			{ 
 				case 1:	input.nextLine();
-						System.out.println("\n\nEncryption Mode");
-						System.out.println("================================");
-						System.out.print("Enter plain text: ");
-						text = input.nextLine();
-						System.out.print("Enter offset character: ");
-						character = input.next().charAt(0);
-						Encoder e1 = new Encoder(text, character);
-						System.out.println("Message successfully encoded...");
-						System.out.printf("Your encoded message is %s%n%n%n", e1.encode(e1.getPlainText()));
-						break;
+                        System.out.println("\n\nEncryption Mode");
+                        System.out.println("================================");
+                        System.out.print("Enter plain text: ");
+                        text = input.nextLine();
+                        System.out.print("Enter offset character: ");
+                        character = input.next().charAt(0);
+                        Encoder e1 = new Encoder(text, character);
+                        System.out.println("Message successfully encoded...");
+                        System.out.printf("Your encoded message is %s%n%n%n", e1.encode(e1.getPlainText()));
+                        break;
 						
 				case 2: input.nextLine();
-						System.out.println("\n\nDecryption Mode");
-						System.out.println("================================");
-						System.out.print("Enter decoded text: ");
-						text = input.nextLine();
-						System.out.print("Enter offset character: ");
-						character = input.next().charAt(0);
-						Decoder d1 = new Decoder(text, character);
-						System.out.println("Message successfully decoded...");
-						System.out.printf("Your decoded message is %s%n%n%n", d1.decode(d1.getEncodedText()));
+                        System.out.println("\n\nDecryption Mode");
+                        System.out.println("================================");
+                        System.out.print("Enter decoded text: ");
+                        text = input.nextLine();
+                        System.out.print("Enter offset character: ");
+                        character = input.next().charAt(0);
+                        Decoder d1 = new Decoder(text, character);
+                        System.out.println("Message successfully decoded...");
+                        System.out.printf("Your decoded message is %s%n%n%n", d1.decode(d1.getEncodedText()));
 			}
 		}
 		while(option != 3);
